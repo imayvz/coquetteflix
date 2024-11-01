@@ -1,0 +1,60 @@
+header{
+    background-color: pink;
+    margin: 0px;
+}
+
+
+header {
+    border-bottom: solid 3px pink;
+    padding: 20px;
+    font-size: 22px;
+    color: black
+}
+
+section{
+    background: pink;
+    padding-bottom:60px;
+    padding-top: 60px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+}
+img{
+    height: 100px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img { 
+    opacity: 0.5;
+    height: 200px;
+
+}
+.categoria-videos img{
+    opacity: 1.0;
+    border:1px solid rgb(84, 1, 84);
+}
+
+.categoria h2 {
+ color: rgb(blue, rgb(43, 0, 255), blue);
+}
